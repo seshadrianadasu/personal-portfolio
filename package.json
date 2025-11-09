@@ -4,10 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "dev": "cross-env VITE_ACTIVE_ENV=local vite",
+    "predeploy": "npm run build:gh-pages",
+  "deploy": "cross-env VITE_ACTIVE_ENV=gh-pages gh-pages -d dist",
+    "build:local": "cross-env VITE_ACTIVE_ENV=local vite build",
+    "build:gh-pages": "cross-env VITE_ACTIVE_ENV=gh-pages vite build",
+  "build:vercel": "cross-env VITE_ACTIVE_ENV=vercel vite build",
+  "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
