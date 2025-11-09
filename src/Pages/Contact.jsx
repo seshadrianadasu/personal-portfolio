@@ -112,7 +112,7 @@ function Contact() {
                 <div className='flex flex-col mb-4'>
                     <label htmlFor="Name" className='text-white font-semibold text-xl mb-4'>Full Name</label>
                     <input type="name" onChange={handleChange} name='name' value={form.name} placeholder='Full Name'
-                     className={ `border ${errors.name ? "border-red-500": "border-gray-300"} rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#7C3AED] `} />
+                     className={ `border ${errors.name ? "border-red-500": "border-gray-300"} rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#7C3AED] placeholder-white `} />
                      {errors.name && (
                         <span className="text-red-500 text-sm mt-1">{errors.name}</span>
                      )}
@@ -120,7 +120,7 @@ function Contact() {
                 <div className='flex flex-col mb-4'>
                     <label htmlFor="email" className='text-white font-semibold  text-xl mb-4'>Email address</label>
                 <input type="email" onChange={handleChange} name='email' value={form.email} 
-                 className={`border ${errors.email ? "border-red-500" : 'border-gray-300 '}  px-2 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C3AED] `} placeholder='Your.email@example.com'/>
+                 className={`border ${errors.email ? "border-red-500" : 'border-gray-300 '}  px-2 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C3AED] placeholder-white `} placeholder='Your.email@example.com'/>
                  {errors.email && (
                         <span className="text-red-500 text-sm mt-1">{errors.email}</span>
                      )}
@@ -128,7 +128,7 @@ function Contact() {
                 <div className='flex flex-col mb-4'>
                     <label htmlFor="message" className='text-white font-semibold  text-xl mb-4'>message</label>
                 <textarea name="message" onChange={handleChange}  value={form.message} 
-                 className={`block border ${errors.message ? 'border-red-500':'border-gray-300'}  px-2 py-3  rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C3AED]`} placeholder='Tell me about your project or just say hello!'></textarea>
+                 className={`block border ${errors.message ? 'border-red-500':'border-gray-300'}  px-2 py-3  rounded-md focus:outline-none focus:ring-2 focus:ring-[#7C3AED] placeholder-white`} placeholder='Tell me about your project or just say hello!'></textarea>
                  {errors.message && (
                         <span className="text-red-500 text-sm mt-1">{errors.message}</span>
                      )}
