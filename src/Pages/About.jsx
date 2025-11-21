@@ -21,7 +21,7 @@ function About() {
       </div>
      <div className='flex flex-col items-center md:flex-row md:flex md:items-center md:max-w-full md:justify-center mt-15 md:gap-8   '>
      
-        <img src="/Seshadri.png" alt="myphoto" className='md:w-[25rem] w-[16rem] rounded-xl md:mb-0 mb-6 transition-transform duration-300 hover:scale-105' data-aos='fade-right'/>
+        <img src="/Seshadri.png" alt="myphoto" className='md:w-[30rem] w-[16rem] rounded-xl md:mb-0 mb-6 transition-transform duration-300 hover:scale-105' data-aos='fade-right'/>
       
         <div className='text-center md:text-left max-w-lg px-2 mt-4' data-aos='fade-left'>
           <h2 className='text-4xl mb-4 text-white font-bold'>Crafting Digital Experience with Passion</h2>

@@ -20,56 +20,56 @@ const SkillsData=[
         id:2,
         image:IoLogoCss3,
         Title:"CSS",
-        Percentage:"95",
+        Percentage:"90",
         content:"Modern CSS3, Flexbox, Grid, and Responsive Design"
     },
     {
         id:3,
         image:SiJavascript,
         Title:"JavaScript",
-        Percentage:"93",
+        Percentage:"80",
         content:"JavaScript ES6+, DOM Manipulation, and Modern JS frameworks"
     },
     {
         id:4,
         image:BsBootstrapFill,
         Title:"Bootstrap",
-        Percentage:"94",
+        Percentage:"89",
         content:"Bootstrap 4 & 5, Responsive Design, and UI Components"
     },
     {
         id:5,
         image:RiTailwindCssFill,
         Title:"Tailwind CSS",
-        Percentage:"92",
+        Percentage:"85",
         content:"Utility-first CSS framework for rapid UI development"
     },
     {
         id:6,
         image:SiDjango,
         Title:"Django",
-        Percentage:"85",
+        Percentage:"70",
         content:"High-level Python web framework for rapid development"
     },
     {
         id:7,
         image:AiOutlineApi,
         Title:"Api's",
-        Percentage:"89",
+        Percentage:"50",
         content:"Api integration and development"
     },
     {
         id:8,
         image:SiPython,
         Title:"Python",
-        Percentage:"90",
+        Percentage:"75",
         content:"Proficient in Python programming and scripting"
     },
     {
         id:9,
         image:FaReact,
         Title:"React JS",
-        Percentage:"96",
+        Percentage:"80",
         content:"Modern React development with hooks and state management"
     }
 ]

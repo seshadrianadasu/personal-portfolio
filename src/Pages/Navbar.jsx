@@ -38,7 +38,7 @@ function Navbar(){
             
             {openMenu &&(
             <div className="absolute top-16 left-0 w-full z-50 shadow-md md:hidden">
-               <ul className="flex flex-col item-center gap-5 py-5 pl-6 bg-slate-900 text-blue-700 ">
+               <ul className="flex flex-col item-center gap-5 py-5 pl-6 bg-slate-900 text-white ">
                 <li>
                     <a href="#herosection" onClick={()=>{setMenuOpen(false)}}>Home</a>
                     </li>
